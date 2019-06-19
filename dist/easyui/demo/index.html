@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>MyHtml.html</title>
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="../themes/default/easyui.css">
+		<link rel="stylesheet" type="text/css" href="../themes/icon.css">
+		<script type="text/javascript" src="../jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="../jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="../config.js"></script>
+	</head>
+	<body>
+		<div id="tt" class="easyui-tabs">
+			<div title="tab1" style="padding: 20px;">
+				<form action="">
+					<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+						<TR>
+							<td></td>
+							<td>
+								<input class="easyui-datebox" name="test">
+							</td>
+							<td>
+							</td>
+							<select id="cc" class="easyui-combotree" style="width: 200px;" data-options="url:'./data/tree_data.json',collapseAll:true"></select>
+							<td>
+							</td>
+						</TR>
+						<tr>
+							<td>
+								<input id="cc1" class="easyui-combobox" name="dept1" value="22" data-options="valueField:'codeId',textField:'codeName',url:'/qhgd/sheet/query/code.do?cmd=type&ctype=SHEET_STATUS'">
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</TABLE>
+				</form>
+			</div>
+			<div title="tab2" closable="true" style="padding: 20px;">
+				<form action="">
+					<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+						<TR align="center">
+							<td></td>
+							<td>
+								<input class="easyui-datebox" name="test">
+							</td>
+							<td>
+							</td>
+							<select id="cc" class="easyui-combotree" style="width: 200px;" data-options="url:'./data/tree_data.json',collapseAll:true"></select>
+							<td>
+							</td>
+						</TR>
+						<tr>
+							<td>
+								补救产品
+							</td>
+							<td>
+								<input id="cc2" class="easyui-combobox" name="remedy" style="width: 400px;" data-options="valueField:'productId',textField:'productName',url:'/qhgd/sheet/query/remedy.do'">
+
+							</td>
+							<td>
+								<input id="cc1" class="easyui-combobox" name="dept1" value="22" data-options="valueField:'codeId',textField:'codeName',url:'/qhgd/sheet/query/code.do?cmd=type&ctype=SHEET_STATUS'">
+							</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</TABLE>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

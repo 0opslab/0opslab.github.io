@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+        <title>
+            天枢
+        </title>
+        <meta content="java,go,python,html,javascript,linux," name="keywords"/>
+        <meta content="专为IT从业者提供IT技术相关的搜索服务" name="description"/>
+        <link href="/dist/bootstrap/css/bootstrap1.min.css" rel="stylesheet"/>
+        <style type="text/css">
+            .container{margin-top: 60px;}
+            .results {min-height: 400px;}
+            .result {border-bottom:1px solid #DCDCDC;}
+            @media (min-width: 1125px) {.container{width: 1125px;}}
+        </style>
+        <script src="/dist/jquery.1.11.3.min.js"></script>
+        <script src="/dist/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">ToggleNav</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">天枢</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://www.google.com.hk/" target="_blank">Google</a></li>
+                        <li><a href="https://www.baidu.com" target="_blank">Baidu</a></li>
+                        <li><a href="https://www.wikipedia.org/" target="_blank">wikipedia</a></li>
+                        <li><a href="https://searchcode.com" target="_blank">searchcode</a></li>
+                        <li><a href="http://mvnrepository.com/" target="_blank">mvnrepository</a></li>
+                        <li><a href="https://github.com/explore" target="_blank">GITHUB</a></li>
+                        <li><a href="https://translate.google.cn/" target="_blank">translate</a></li>
+                        <li><a href="http://json.cn/" target="_blank">JSON</a></li>
+                        <li>
+                            <a  href="https://www.processon.com/" target="_blank">
+                            processon
+                            </a>
+                        </li>
+                        <li><a  href="https://maxiang.io/" target="_blank">
+                            markdown
+                        </a></li>
+
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Reader
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="http://bluereader.org/" target="_blank">深蓝阅读</a></li>
+                            <li><a href="http://toutiao.io/" target="_blank">开发者头条</a></li>
+                            <li><a href="http://ju.outofmemory.cn/" target="_blank">聚客</a></li>
+                            <li><a href="http://www.importnew.com/" target="_blank">importnew</a></li>
+                            <li><a href="http://gold.xitu.io/tag/Java" target="_blank">掘金</a></li>
+                            <li><a href="http://www.ibm.com/developerworks/cn/java/" target="_blank">IBM developerworks</a></li>
+                            <li><a href="http://web.jobbole.com/" target="_blank">Web伯乐在线</a></li>
+                            <li><a href="http://dbaplus.cn/" target="_blank">dbaplus</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Doc
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="https://springcloud.cc/" target="_blank">springcloud</a></li>
+                            <li><a href="https://spring.io/docs" target="_blank">Spring Documentation</a></li>
+                            <li><a href="https://golang.google.cn/pkg/" target="_blank">GOLANG PKG</a></li>
+                            <a class="btn btn-link" href="http://overapi.com/" target="_blank">
+                                overapi
+                            </a>
+                            <a class="btn btn-link" href="https://devdocs.io/" target="_blank">
+                                devdocs
+                            </a>
+                            <a class="btn btn-link" href="http://www.w3school.com.cn/" target="_blank">
+                                w3school
+                            </a>
+                            <a class="btn btn-link" href="http://docs.oracle.com/javase/8/docs/api/" target="_blank">
+                                jdk8-doc
+                            </a>
+                            <a class="btn btn-link" href="http://tool.oschina.net/apidocs" target="_blank">
+                                OSCHINA在线API
+                            </a>
+                            <a class="btn btn-link" href="http://www.runoob.com/" target="_blank">
+                                runoob在线API
+                            </a>
+                            <a class="btn btn-link" href="http://www.programcreek.com/java-api-examples/" target="_blank">
+                                java api examples
+                            </a>
+                            <a class="btn btn-link" href="http://www.programcreek.com/python/" target="_blank">
+                                python examples
+                            </a>
+                            <a class="btn btn-link" href="http://www.w3school.com.cn/cssref/" target="_blank">
+                                CSS在线手册
+                            </a>
+                            <a class="btn btn-link" href="http://tool.oschina.net/commons?type=3" target="_blank">
+                                REG在线颜色查询
+                            </a>
+                            <a class="btn btn-link" href="http://www.bootcss.com/" target="_blank">
+                                bootstrap
+                            </a>
+                            <a class="btn btn-link" href="http://www.runoob.com/js" target="_blank">
+                                JavaScript
+                            </a>
+                            <a class="btn btn-link" href="http://cn.vuejs.org/" target="_blank">
+                                vuejs
+                            </a>
+                            <a class="btn btn-link" href="http://dubbo.apache.org" target="_blank">
+                                dubbo
+                            </a>
+                            <a class="btn btn-link" href="http://hadoop.apache.org/docs/current/api/" target="_blank">
+                            hadoop API
+                        </a>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span>Tools
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="http://man.linuxde.net/" target="_blank">Linux命令大全</a></li>
+                            <li><a href="https://www.hackfun.org/kali-tools/kali-tools-zh.html" target="_blank">kali linux tools</a></li>
+                            <li><a href="http://www.pstips.net/" target="_blank">powershell资源</a></li>
+                            <li><a href="http://tool.lu/" target="_blank">一个综合在线工具</a></li>
+                            <li><a href="https://www.diffchecker.com/diff" target="_blank">diffchecker</a></li>
+                            <a class="btn btn-link" href="http://tool.oschina.net/regex/" target="_blank">
+                                在线正则表达式测试
+                            </a>
+                            <a class="btn btn-link" href="http://tool.chinaz.com/map.aspx" target="_blank">
+                                站长工具
+                            </a>
+                            <a class="btn btn-link" href="http://r.virscan.org/" target="_blank">
+                                virscan
+                            </a>
+                            <a class="btn btn-link" href="https://habo.qq.com/" target="_blank">
+                                腾讯哈勃分析
+                            </a>
+                            <a class="btn btn-link" href="http:www.exploit-db.com" target="_blank">
+                                exploit-db
+                            </a>
+                            <a class="btn btn-link" href="http://ipaddress.com/" target="_blank">
+                                ipaddress.com
+                            </a>
+                            <a class="btn btn-link" href="http://www.ip138.com/" target="_blank">
+                                ip138
+                            </a>
+                          </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" >
+            <div class="input-group">
+                     <input autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" class="form-control" id="q" size="100" spellcheck="true" type="search" value="">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="go">
+                            Go!
+                        </button>
+                    </span>
+                </div>
+        </div>
+        <script type="text/javascript">
+            //原来的检索服务由于证书到期加上还需要备案就放弃了
+            document.onkeydown = function(e){
+                if((e.keyCode || e.which) == 13){
+                    var key = $("#q").val();
+                    if(key != ""){
+                        window.open("https://www.baidu.com/s?wd="+key);
+                        window.open("https://cn.bing.com/search?q="+key);
+                    }
+                }
+            }
+            $(function(){
+                $("#go").click(function(){
+                    var key = $("#q").val();
+                    if(key != ""){
+                        window.open("https://www.baidu.com/s?wd="+key);
+                        window.open("https://cn.bing.com/search?q="+key);
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
