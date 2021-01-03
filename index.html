@@ -197,11 +197,15 @@
                 }
             }
             $(function(){
-                $("#go").click(function(){
+         $("#go").click(function(){
                     var key = $("#q").val();
                     if(key != ""){
+                      if(key.startsWith("c:")){
+                        window.open("http://49.233.166.136/v1/cmd/"+key.substr(2,));
+                      }else{
                         window.open("https://www.baidu.com/s?wd="+key);
                         window.open("https://cn.bing.com/search?q="+key);
+                      }
                     }
                 });
             });
