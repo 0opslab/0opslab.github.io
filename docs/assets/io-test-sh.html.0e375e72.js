@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-41c87fcc","path":"/sp-bash/io-test-sh.html","title":"IO_test of three times","lang":"zh-CN","frontmatter":{"title":"IO_test of three times","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/io-test-sh.md"}');export{t as data};

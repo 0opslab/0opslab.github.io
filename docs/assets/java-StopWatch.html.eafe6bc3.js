@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b1b0227a","path":"/java/java-StopWatch.html","title":"StopWatch \u4F18\u96C5\u6253\u5370\u6267\u884C\u8017\u65F6","lang":"zh-CN","frontmatter":{"title":"StopWatch \u4F18\u96C5\u6253\u5370\u6267\u884C\u8017\u65F6","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"java/java-StopWatch.md"}');export{t as data};

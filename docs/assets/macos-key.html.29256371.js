@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-173d4b64","path":"/doc/macos-key.html","title":"macos\u5E38\u7528\u5FEB\u6377\u952E","lang":"zh-CN","frontmatter":{"title":"macos\u5E38\u7528\u5FEB\u6377\u952E","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"doc/macos-key.md"}');export{t as data};

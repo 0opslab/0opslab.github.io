@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-41633a96","path":"/sp-bash/chrome-sh.html","title":"","lang":"zh-CN","frontmatter":{"title":null,"date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/chrome-sh.md"}');export{t as data};

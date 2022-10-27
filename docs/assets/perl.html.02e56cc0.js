@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-00037e6d","path":"/cmds/perl.html","title":"perl\u547D\u4EE4\u5E38\u7528\u7684\u51E0\u4E2A\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"perl\u547D\u4EE4\u5E38\u7528\u7684\u51E0\u4E2A\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/perl.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-982b70dc","path":"/cmds/ping6.html","title":"ping6\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"ping6\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ping6.md"}');export{t as data};

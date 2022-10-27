@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-20f0c332","path":"/cmds/zsh.html","title":"linux-zsh","lang":"zh-CN","frontmatter":{"title":"linux-zsh","description":"\u4E0Ebash\u548Ctcsh\u76F8\u540C\u7684\u4E00\u6B3Eshell"},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/zsh.md"}');export{t as data};

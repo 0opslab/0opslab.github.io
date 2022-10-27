@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-035f6d3a","path":"/cmds/bzip2.html","title":"bzip2\u547D\u4EE4\u662F.bz2\u6587\u4EF6\u7684\u538B\u7F29\u7A0B\u5E8F","lang":"zh-CN","frontmatter":{"title":"bzip2\u547D\u4EE4\u662F.bz2\u6587\u4EF6\u7684\u538B\u7F29\u7A0B\u5E8F","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/bzip2.md"}');export{t as data};

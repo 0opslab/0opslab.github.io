@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1035654d","path":"/cmds/cryptsetup.html","title":"cryptsetup\u6570\u636E\u52A0\u89E3\u5BC6","lang":"zh-CN","frontmatter":{"title":"cryptsetup\u6570\u636E\u52A0\u89E3\u5BC6","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/cryptsetup.md"}');export{t as data};

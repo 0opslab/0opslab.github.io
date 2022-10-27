@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6d442477","path":"/jvm/jvm-params-10top.html","title":"\u5341\u4E2A\u6700\u5E38\u7528\u7684JVM\u914D\u7F6E\u53C2\u6570","lang":"zh-CN","frontmatter":{"title":"\u5341\u4E2A\u6700\u5E38\u7528\u7684JVM\u914D\u7F6E\u53C2\u6570","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"jvm/jvm-params-10top.md"}');export{t as data};

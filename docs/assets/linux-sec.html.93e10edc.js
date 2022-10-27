@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3b6afad5","path":"/linux/linux-sec.html","title":"Linux\u5165\u4FB5\u68C0\u67E5\u5B9E\u7528\u6307\u4EE4","lang":"zh-CN","frontmatter":{"title":"Linux\u5165\u4FB5\u68C0\u67E5\u5B9E\u7528\u6307\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/linux-sec.md"}');export{t as data};

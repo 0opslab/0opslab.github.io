@@ -1,0 +1,52 @@
+import{_ as s,o as n,c as a,e}from"./app.a667bd71.js";const p={},o=e(`<div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+<span class="token comment">#\`\`\`ops</span>
+<span class="token comment">#title:xcall\u5229\u7528bash\u5728\u4E00\u53F0\u4E3B\u673A\u4E0A\u5411\u591A\u53F0\u4E3B\u673A\u6267\u884C\u547D\u4EE4\u5E76\u83B7\u53D6\u7ED3\u679C</span>
+<span class="token comment">#descr:</span>
+<span class="token comment">#\`\`\`</span>
+<span class="token assign-left variable">params</span><span class="token operator">=</span><span class="token variable">$@</span>
+<span class="token assign-left variable">list</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">&#39;135.191.107.124&#39;</span> <span class="token string">&#39;135.191.107.125&#39;</span> <span class="token string">&#39;135.191.107.126&#39;</span><span class="token punctuation">)</span>
+
+<span class="token keyword">for</span> <span class="token for-or-select variable">host</span> <span class="token keyword">in</span> <span class="token variable">\${list<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+<span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> <span class="token variable">$host</span>
+<span class="token keyword">done</span>
+
+
+<span class="token function-name function">xcall</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token assign-left variable">list</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">&#39;135.191.107.124&#39;</span> <span class="token string">&#39;135.191.107.125&#39;</span> <span class="token string">&#39;135.191.107.126&#39;</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> <span class="token for-or-select variable">host</span> <span class="token keyword">in</span> <span class="token variable">\${list<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+    <span class="token keyword">do</span>
+        <span class="token builtin class-name">echo</span> <span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token variable">$host</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span>
+        <span class="token function">ssh</span> <span class="token variable">$host</span> <span class="token variable">$1</span>
+    <span class="token keyword">done</span>    
+<span class="token punctuation">}</span> 
+
+
+
+<span class="token function-name function">ecplog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token assign-left variable">txt</span><span class="token operator">=</span><span class="token variable">$1</span>
+    <span class="token assign-left variable">cmd</span><span class="token operator">=</span><span class="token string">&quot;find /webapp02/logs/ -name <span class="token entity" title="\\&quot;">\\&quot;</span>crmDetail_*.log<span class="token entity" title="\\&quot;">\\&quot;</span> -exec grep --color <span class="token entity" title="\\&quot;">\\&quot;</span><span class="token variable">\${txt}</span><span class="token entity" title="\\&quot;">\\&quot;</span> {} \\;&quot;</span>
+    <span class="token assign-left variable">list</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">&#39;135.191.107.124&#39;</span> <span class="token string">&#39;135.191.107.125&#39;</span> <span class="token string">&#39;135.191.107.126&#39;</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> <span class="token for-or-select variable">host</span> <span class="token keyword">in</span> <span class="token variable">\${list<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+    <span class="token keyword">do</span>
+        <span class="token builtin class-name">echo</span> <span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token variable">$host</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span>
+        <span class="token comment">#echo == $cmd</span>
+        <span class="token function">ssh</span> <span class="token variable">$host</span> <span class="token variable">$cmd</span>
+    <span class="token keyword">done</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token function-name function">ecpdatelog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token assign-left variable">txt</span><span class="token operator">=</span><span class="token variable">$1</span>
+    <span class="token assign-left variable">cmd</span><span class="token operator">=</span><span class="token string">&quot;find /webapp02/logs/ -name <span class="token entity" title="\\&quot;">\\&quot;</span>crmDetail_*<span class="token variable">$1</span><span class="token entity" title="\\&quot;">\\&quot;</span> -exec grep --color <span class="token entity" title="\\&quot;">\\&quot;</span><span class="token variable">$2</span><span class="token entity" title="\\&quot;">\\&quot;</span> {} \\;&quot;</span>
+    <span class="token assign-left variable">list</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">&#39;135.191.107.124&#39;</span> <span class="token string">&#39;135.191.107.125&#39;</span> <span class="token string">&#39;135.191.107.126&#39;</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">for</span> <span class="token for-or-select variable">host</span> <span class="token keyword">in</span> <span class="token variable">\${list<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+    <span class="token keyword">do</span>
+        <span class="token builtin class-name">echo</span> <span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token variable">$host</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span>
+        <span class="token function">ssh</span> <span class="token variable">$host</span> <span class="token variable">$cmd</span>
+    <span class="token keyword">done</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,1),t=[o];function l(c,i){return n(),a("div",null,t)}const k=s(p,[["render",l],["__file","xcall-sh.html.vue"]]);export{k as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-299f284a","path":"/cmds/notify-send.html","title":"notify-send\u53D1\u9001\u684C\u9762\u901A\u77E5","lang":"zh-CN","frontmatter":{"title":"notify-send\u53D1\u9001\u684C\u9762\u901A\u77E5","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/notify-send.md"}');export{t as data};

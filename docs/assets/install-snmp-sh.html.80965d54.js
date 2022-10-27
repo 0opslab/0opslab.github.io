@@ -1,0 +1,1 @@
+const l=JSON.parse('{"key":"v-ffb20f5c","path":"/sp-install/install-snmp-sh.html","title":"the shell is install net-snmp","lang":"zh-CN","frontmatter":{"title":"the shell is install net-snmp","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-install/install-snmp-sh.md"}');export{l as data};

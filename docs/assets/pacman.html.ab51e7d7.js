@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-f7d64e98","path":"/cmds/pacman.html","title":"\u8F6F\u4EF6\u5305\u7BA1\u7406\u5668\u547D\u4EE4pacman","lang":"zh-CN","frontmatter":{"title":"\u8F6F\u4EF6\u5305\u7BA1\u7406\u5668\u547D\u4EE4pacman","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/pacman.md"}');export{a as data};

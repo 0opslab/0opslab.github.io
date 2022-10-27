@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-427e2180","path":"/sp-install/install-py36-sh.html","title":"python36\u5B89\u88C5\u811A\u672C","lang":"zh-CN","frontmatter":{"title":"python36\u5B89\u88C5\u811A\u672C","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-install/install-py36-sh.md"}');export{t as data};

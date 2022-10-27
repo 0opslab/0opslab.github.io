@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-054283b5","path":"/cmds/nmcli.html","title":"\u5730\u5740\u914D\u7F6E\u5DE5\u5177nmcli","lang":"zh-CN","frontmatter":{"title":"\u5730\u5740\u914D\u7F6E\u5DE5\u5177nmcli","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/nmcli.md"}');export{t as data};

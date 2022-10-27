@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1a25f452","path":"/sp-bash/check-ping-sh.html","title":"check ping on linux","lang":"zh-CN","frontmatter":{"title":"check ping on linux","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/check-ping-sh.md"}');export{e as data};

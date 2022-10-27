@@ -1,0 +1,26 @@
+import{_ as a,o as s,c as n,e}from"./app.a667bd71.js";const l={},i=e(`<h3 id="\u9009\u9879" tabindex="-1"><a class="header-anchor" href="#\u9009\u9879" aria-hidden="true">#</a> \u9009\u9879</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token parameter variable">-d</span> \u4F7F\u7528Socket\u7684SO_DEBUG\u529F\u80FD\u3002
+-c<span class="token operator">&lt;</span>\u5B8C\u6210\u6B21\u6570<span class="token operator">&gt;</span> \u8BBE\u7F6E\u5B8C\u6210\u8981\u6C42\u56DE\u5E94\u7684\u6B21\u6570\u3002
+<span class="token parameter variable">-f</span> \u6781\u9650\u68C0\u6D4B\u3002
+-i<span class="token operator">&lt;</span>\u95F4\u9694\u79D2\u6570<span class="token operator">&gt;</span> \u6307\u5B9A\u6536\u53D1\u4FE1\u606F\u7684\u95F4\u9694\u65F6\u95F4\u3002
+-I<span class="token operator">&lt;</span>\u7F51\u7EDC\u754C\u9762<span class="token operator">&gt;</span> \u4F7F\u7528\u6307\u5B9A\u7684\u7F51\u7EDC\u754C\u9762\u9001\u51FA\u6570\u636E\u5305\u3002
+-l<span class="token operator">&lt;</span>\u524D\u7F6E\u8F7D\u5165<span class="token operator">&gt;</span> \u8BBE\u7F6E\u5728\u9001\u51FA\u8981\u6C42\u4FE1\u606F\u4E4B\u524D\uFF0C\u5148\u884C\u53D1\u51FA\u7684\u6570\u636E\u5305\u3002
+<span class="token parameter variable">-n</span> \u53EA\u8F93\u51FA\u6570\u503C\u3002
+-p<span class="token operator">&lt;</span>\u8303\u672C\u6837\u5F0F<span class="token operator">&gt;</span> \u8BBE\u7F6E\u586B\u6EE1\u6570\u636E\u5305\u7684\u8303\u672C\u6837\u5F0F\u3002
+<span class="token parameter variable">-q</span> \u4E0D\u663E\u793A\u6307\u4EE4\u6267\u884C\u8FC7\u7A0B\uFF0C\u5F00\u5934\u548C\u7ED3\u5C3E\u7684\u76F8\u5173\u4FE1\u606F\u9664\u5916\u3002
+<span class="token parameter variable">-r</span> \u5FFD\u7565\u666E\u901A\u7684Routing Table\uFF0C\u76F4\u63A5\u5C06\u6570\u636E\u5305\u9001\u5230\u8FDC\u7AEF\u4E3B\u673A\u4E0A\u3002
+<span class="token parameter variable">-R</span> \u8BB0\u5F55\u8DEF\u7531\u8FC7\u7A0B\u3002
+-s<span class="token operator">&lt;</span>\u6570\u636E\u5305\u5927\u5C0F<span class="token operator">&gt;</span> \u8BBE\u7F6E\u6570\u636E\u5305\u7684\u5927\u5C0F\u3002
+-t<span class="token operator">&lt;</span>\u5B58\u6D3B\u6570\u503C<span class="token operator">&gt;</span> \u8BBE\u7F6E\u5B58\u6D3B\u6570\u503CTTL\u7684\u5927\u5C0F\u3002
+<span class="token parameter variable">-v</span> \u8BE6\u7EC6\u663E\u793A\u6307\u4EE4\u7684\u6267\u884C\u8FC7\u7A0B\u3002
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="\u5E38\u7528\u547D\u4EE4" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u547D\u4EE4" aria-hidden="true">#</a> \u5E38\u7528\u547D\u4EE4</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># ping a host with a total count of 15 packets overall.    </span>
+<span class="token comment">#ping\u4E00\u4E2A\u603B\u6570\u4E3A15\u4E2A\u6570\u636E\u5305\u7684\u4E3B\u673A\u3002</span>
+<span class="token function">ping</span> <span class="token parameter variable">-c</span> <span class="token number">15</span> www.example.com
+
+<span class="token comment"># ping a host with a total count of 15 packets overall, one every .5 seconds (faster ping). </span>
+<span class="token comment">#ping\u4E00\u4E2A\u603B\u517115\u4E2A\u6570\u636E\u5305\u7684\u4E3B\u673A\uFF0C\u6BCF0.5\u79D2\u4E00\u6B21\uFF08\u66F4\u5FEB\u7684ping\uFF09\u3002</span>
+<span class="token function">ping</span> <span class="token parameter variable">-c</span> <span class="token number">15</span> <span class="token parameter variable">-i</span> .5 www.example.com
+
+<span class="token comment"># test if a packet size of 1500 bytes is supported (to check the MTU for example)</span>
+<span class="token comment">#\u6D4B\u8BD5\u662F\u5426\u652F\u63011500\u5B57\u8282\u7684\u6570\u636E\u5305\u5927\u5C0F\uFF08\u4F8B\u5982\u68C0\u67E5MTU\uFF09</span>
+<span class="token function">ping</span> <span class="token parameter variable">-s</span> <span class="token number">1500</span> <span class="token parameter variable">-c</span> <span class="token number">10</span> <span class="token parameter variable">-M</span> <span class="token keyword">do</span> www.example.com
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4),t=[i];function p(r,o){return s(),n("div",null,t)}const d=a(l,[["render",p],["__file","ping.html.vue"]]);export{d as default};

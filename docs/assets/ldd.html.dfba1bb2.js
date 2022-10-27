@@ -1,0 +1,8 @@
+import{_ as e,o as a,c as d,e as n}from"./app.a667bd71.js";const s={},i=n(`<h3 id="\u5E38\u7528\u9009\u9879" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u9009\u9879" aria-hidden="true">#</a> \u5E38\u7528\u9009\u9879</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>--version\uFF1A\u6253\u5370\u6307\u4EE4\u7248\u672C\u53F7\uFF1B
+-v\uFF1A\u8BE6\u7EC6\u4FE1\u606F\u6A21\u5F0F\uFF0C\u6253\u5370\u6240\u6709\u76F8\u5173\u4FE1\u606F\uFF1B
+-u\uFF1A\u6253\u5370\u672A\u4F7F\u7528\u7684\u76F4\u63A5\u4F9D\u8D56\uFF1B
+-d\uFF1A\u6267\u884C\u91CD\u5B9A\u4F4D\u548C\u62A5\u544A\u4EFB\u4F55\u4E22\u5931\u7684\u5BF9\u8C61\uFF1B
+-r\uFF1A\u6267\u884C\u6570\u636E\u5BF9\u8C61\u548C\u51FD\u6570\u7684\u91CD\u5B9A\u4F4D\uFF0C\u5E76\u4E14\u62A5\u544A\u4EFB\u4F55\u4E22\u5931\u7684\u5BF9\u8C61\u548C\u51FD\u6570\uFF1B
+--help\uFF1A\u663E\u793A\u5E2E\u52A9\u4FE1\u606F\u3002
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="\u5E38\u7528\u547D\u4EE4" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u547D\u4EE4" aria-hidden="true">#</a> \u5E38\u7528\u547D\u4EE4</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>ldd /bin/ls
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,4),l=[i];function r(c,t){return a(),d("div",null,l)}const v=e(s,[["render",r],["__file","ldd.html.vue"]]);export{v as default};

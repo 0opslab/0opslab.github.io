@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5386842c","path":"/cmds/ntp.html","title":"\u7F51\u7EDC\u65F6\u95F4\u540C\u6B65\u534F\u8BAEntp","lang":"zh-CN","frontmatter":{"title":"\u7F51\u7EDC\u65F6\u95F4\u540C\u6B65\u534F\u8BAEntp","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ntp.md"}');export{t as data};

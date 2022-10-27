@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-631da772","path":"/sp-bash/get-public-ip-sh.html","title":"\u83B7\u53D6\u516C\u5171\u5730\u5740","lang":"zh-CN","frontmatter":{"title":"\u83B7\u53D6\u516C\u5171\u5730\u5740","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/get-public-ip-sh.md"}');export{t as data};

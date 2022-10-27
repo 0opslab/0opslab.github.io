@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-71877ed0","path":"/cmds/pigz.html","title":"\u538B\u7F29\u795E\u5668pigz\u5E38\u7528\u793A\u4F8B","lang":"zh-CN","frontmatter":{"title":"\u538B\u7F29\u795E\u5668pigz\u5E38\u7528\u793A\u4F8B","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/pigz.md"}');export{t as data};

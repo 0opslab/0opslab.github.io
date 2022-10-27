@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-83038258","path":"/python/py-funcs.html","title":"python\u5E38\u7528\u7CFB\u7EDF\u51FD\u6570","lang":"zh-CN","frontmatter":{"title":"python\u5E38\u7528\u7CFB\u7EDF\u51FD\u6570","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"python/py-funcs.md"}');export{t as data};

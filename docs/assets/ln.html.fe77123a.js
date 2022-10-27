@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a7ae170c","path":"/cmds/ln.html","title":"linux\u8F6F\u8FDE\u63A5ln\u76F8\u5173\u76F8\u5173\u7684\u5E38\u7528\u793A\u4F8B","lang":"zh-CN","frontmatter":{"title":"linux\u8F6F\u8FDE\u63A5ln\u76F8\u5173\u76F8\u5173\u7684\u5E38\u7528\u793A\u4F8B","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ln.md"}');export{t as data};

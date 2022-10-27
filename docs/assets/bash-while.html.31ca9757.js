@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5a87dc6d","path":"/linux/bash-while.html","title":"bash\u91CC\u7684\u90A3\u4E9Bwhile\u5FAA\u73AF","lang":"zh-CN","frontmatter":{"title":"bash\u91CC\u7684\u90A3\u4E9Bwhile\u5FAA\u73AF","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/bash-while.md"}');export{e as data};

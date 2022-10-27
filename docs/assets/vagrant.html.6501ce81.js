@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-57689c25","path":"/cmds/vagrant.html","title":"linux\u547D\u4EE4vagrant","lang":"zh-CN","frontmatter":{"title":"linux\u547D\u4EE4vagrant","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/vagrant.md"}');export{t as data};

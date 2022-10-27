@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b13d01c8","path":"/sp-python/","title":"\u5E38\u7528\u7684python\u811A\u672C","lang":"zh-CN","frontmatter":{"title":"\u5E38\u7528\u7684python\u811A\u672C","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-python/index.md"}');export{t as data};

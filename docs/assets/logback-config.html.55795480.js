@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-d38b027e","path":"/java/logback-config.html","title":"logback\u914D\u7F6E","lang":"zh-CN","frontmatter":{"title":"logback\u914D\u7F6E","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"java/logback-config.md"}');export{a as data};

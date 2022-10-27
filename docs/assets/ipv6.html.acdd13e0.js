@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3f76c316","path":"/cmds/ipv6.html","title":"\u7BA1\u7406Linux\u4E3B\u673A\u4E0A\u7684ipv6","lang":"zh-CN","frontmatter":{"title":"\u7BA1\u7406Linux\u4E3B\u673A\u4E0A\u7684ipv6","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ipv6.md"}');export{t as data};

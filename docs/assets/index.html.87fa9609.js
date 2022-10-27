@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1469297d","path":"/cmds/","title":"linux\u5E38\u7528\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"linux\u5E38\u7528\u547D\u4EE4","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/index.md"}');export{t as data};

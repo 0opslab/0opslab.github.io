@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6be96492","path":"/cmds/log.html","title":"\u65E5\u5FD7\u76F8\u5173\u7684\u5E38\u7528\u547D\u4EE4log","lang":"zh-CN","frontmatter":{"title":"\u65E5\u5FD7\u76F8\u5173\u7684\u5E38\u7528\u547D\u4EE4log","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/log.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-adb78224","path":"/go/go-mod.html","title":"go mod\u5E38\u7528\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"go mod\u5E38\u7528\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"go/go-mod.md"}');export{t as data};

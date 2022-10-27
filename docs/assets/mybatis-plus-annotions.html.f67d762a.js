@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-226c434c","path":"/mybatis/mybatis-plus-annotions.html","title":"MyBatis-Plus\u4E2D\u7684\u90A3\u4E9B\u6CE8\u89E3","lang":"zh-CN","frontmatter":{"title":"MyBatis-Plus\u4E2D\u7684\u90A3\u4E9B\u6CE8\u89E3","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"mybatis/mybatis-plus-annotions.md"}');export{t as data};

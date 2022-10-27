@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-adfca34c","path":"/db/oralce-dba-sql.html","title":"Oracle DBA\u5E38\u7528\u8BED\u53E5","lang":"zh-CN","frontmatter":{"title":"Oracle DBA\u5E38\u7528\u8BED\u53E5","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"db/oralce-dba-sql.md"}');export{e as data};

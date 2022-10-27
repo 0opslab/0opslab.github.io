@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-c95a58ae","path":"/sp-bash/mongobackup-sh.html","title":"mongo\u5907\u4EFD\u811A\u672C","lang":"zh-CN","frontmatter":{"title":"mongo\u5907\u4EFD\u811A\u672C","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/mongobackup-sh.md"}');export{a as data};

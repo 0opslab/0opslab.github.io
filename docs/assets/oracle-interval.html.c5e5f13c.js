@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b5c8a206","path":"/db/oracle-interval.html","title":"oracle\u4E0B\u5229\u7528interval\u8FDB\u884C\u65F6\u95F4\u64CD\u4F5C","lang":"zh-CN","frontmatter":{"title":"oracle\u4E0B\u5229\u7528interval\u8FDB\u884C\u65F6\u95F4\u64CD\u4F5C","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"db/oracle-interval.md"}');export{e as data};

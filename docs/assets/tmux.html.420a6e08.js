@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-434b7aa0","path":"/cmds/tmux.html","title":"\u4E00\u6B3E\u591A\u4F1A\u8BDD\u7BA1\u7406\u5DE5\u5177tmux","lang":"zh-CN","frontmatter":{"title":"\u4E00\u6B3E\u591A\u4F1A\u8BDD\u7BA1\u7406\u5DE5\u5177tmux","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/tmux.md"}');export{t as data};

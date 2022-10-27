@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-04ca68c4","path":"/sp-bash/route-cnc-linux-V20110818-sh.html","title":"route gateway of cnc","lang":"zh-CN","frontmatter":{"title":"route gateway of cnc","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/route-cnc-linux-V20110818-sh.md"}');export{t as data};

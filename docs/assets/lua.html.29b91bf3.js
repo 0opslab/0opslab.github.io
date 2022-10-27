@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-c1dc9744","path":"/cmds/lua.html","title":"lua\u811A\u672C\u8BED\u8A00","lang":"zh-CN","frontmatter":{"title":"lua\u811A\u672C\u8BED\u8A00","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/lua.md"}');export{t as data};

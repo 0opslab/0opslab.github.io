@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e8688ffc","path":"/cmds/ldconfig.html","title":"ldconfig\u52A8\u6001\u94FE\u63A5\u5E93\u7BA1\u7406\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"ldconfig\u52A8\u6001\u94FE\u63A5\u5E93\u7BA1\u7406\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ldconfig.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7f59c8ca","path":"/cmds/bak.html","title":"Linux\u5F52\u6863\u89E3\u538B\u7F29\u5E38\u7528\u7684\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"Linux\u5F52\u6863\u89E3\u538B\u7F29\u5E38\u7528\u7684\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/bak.md"}');export{t as data};

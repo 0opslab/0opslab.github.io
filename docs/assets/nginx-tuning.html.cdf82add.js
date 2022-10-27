@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1f861b44","path":"/tools/nginx-tuning.html","title":"nginx\u8C03\u4F18\u76F8\u5173\u7684\u90A3\u4E9B\u4E8B\u60C5","lang":"zh-CN","frontmatter":{"title":"nginx\u8C03\u4F18\u76F8\u5173\u7684\u90A3\u4E9B\u4E8B\u60C5","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"tools/nginx-tuning.md"}');export{t as data};

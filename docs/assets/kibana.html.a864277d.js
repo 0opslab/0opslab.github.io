@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-6887645d","path":"/data/kibana.html","title":"kibana\u76F8\u5173\u7684\u5E38\u7528\u547D","lang":"zh-CN","frontmatter":{"title":"kibana\u76F8\u5173\u7684\u5E38\u7528\u547D","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"data/kibana.md"}');export{a as data};

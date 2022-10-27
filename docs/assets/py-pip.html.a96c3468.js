@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-48626228","path":"/python/py-pip.html","title":"Python\u5305\u7BA1\u7406\u5DE5\u5177pip\u7684\u90A3\u4E9B\u4E8B","lang":"zh-CN","frontmatter":{"title":"Python\u5305\u7BA1\u7406\u5DE5\u5177pip\u7684\u90A3\u4E9B\u4E8B","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"python/py-pip.md"}');export{t as data};

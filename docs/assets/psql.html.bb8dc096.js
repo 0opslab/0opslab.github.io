@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-fcff4e24","path":"/tools/psql.html","title":"PostgreSQL\u5E38\u7528\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"PostgreSQL\u5E38\u7528\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"tools/psql.md"}');export{t as data};

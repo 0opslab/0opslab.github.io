@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7a113673","path":"/db/mysql-random.html","title":"mysql\u4E2D\u968F\u673AN\u6761\u8BB0\u5F55","lang":"zh-CN","frontmatter":{"title":"mysql\u4E2D\u968F\u673AN\u6761\u8BB0\u5F55","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"db/mysql-random.md"}');export{t as data};

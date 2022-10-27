@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-443b47d7","path":"/linux/bash-if.html","title":"bash\u4E2D\u7684\u90A3\u4E9B\u6761\u4EF6\u5224\u65ADif","lang":"zh-CN","frontmatter":{"title":"bash\u4E2D\u7684\u90A3\u4E9B\u6761\u4EF6\u5224\u65ADif","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/bash-if.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9c5dcf08","path":"/cmds/udisksctl.html","title":"linux\u78C1\u76D8\u5C0F\u5DE5\u5177udisksctl","lang":"zh-CN","frontmatter":{"title":"linux\u78C1\u76D8\u5C0F\u5DE5\u5177udisksctl","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/udisksctl.md"}');export{t as data};

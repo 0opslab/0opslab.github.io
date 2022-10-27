@@ -1,0 +1,1 @@
+const l=JSON.parse('{"key":"v-5655353c","path":"/sp-install/install-go-sh.html","title":"install go 1.9.2","lang":"zh-CN","frontmatter":{"title":"install go 1.9.2","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-install/install-go-sh.md"}');export{l as data};

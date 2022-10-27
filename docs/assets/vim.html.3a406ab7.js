@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-79075fad","path":"/cmd/vim.html","title":"vim\u76F8\u5173\u7684\u90A3\u4E9B\u5E38\u7528\u64CD\u4F5C","lang":"zh-CN","frontmatter":{"title":"vim\u76F8\u5173\u7684\u90A3\u4E9B\u5E38\u7528\u64CD\u4F5C","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmd/vim.md"}');export{t as data};

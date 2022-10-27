@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8299ae04","path":"/doc/powershell.html","title":"PowerShell\u57FA\u672C\u8BED\u6CD5\u53CA\u5E38\u7528\u547D\u4EE4","lang":"zh-CN","frontmatter":{"title":"PowerShell\u57FA\u672C\u8BED\u6CD5\u53CA\u5E38\u7528\u547D\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"doc/powershell.md"}');export{e as data};

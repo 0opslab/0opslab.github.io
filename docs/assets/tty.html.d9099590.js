@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5bada206","path":"/cmds/tty.html","title":"liinux\u7EC8\u7AEF","lang":"zh-CN","frontmatter":{"title":"liinux\u7EC8\u7AEF","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/tty.md"}');export{t as data};

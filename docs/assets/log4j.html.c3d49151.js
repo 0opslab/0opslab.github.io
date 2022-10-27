@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6d685e13","path":"/java/log4j.html","title":"log4j\u914D\u7F6E","lang":"zh-CN","frontmatter":{"title":"log4j\u914D\u7F6E","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"java/log4j.md"}');export{t as data};

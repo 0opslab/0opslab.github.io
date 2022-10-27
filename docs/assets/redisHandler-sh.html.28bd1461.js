@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2942c98a","path":"/sp-bash/redisHandler-sh.html","title":"install redis as service","lang":"zh-CN","frontmatter":{"title":"install redis as service","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/redisHandler-sh.md"}');export{e as data};

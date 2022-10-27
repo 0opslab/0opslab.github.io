@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-562e37b0","path":"/sp-tampermonkey/","title":"\u5E38\u7528\u7684\u6CB9\u7334\u811A\u672C","lang":"zh-CN","frontmatter":{"title":"\u5E38\u7528\u7684\u6CB9\u7334\u811A\u672C","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-tampermonkey/index.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-dbd5c758","path":"/cmds/ncat.html","title":"nc\u548Cncat\u662F\u540C\u4E00\u4E2A\u5DE5\u5177","lang":"zh-CN","frontmatter":{"title":"nc\u548Cncat\u662F\u540C\u4E00\u4E2A\u5DE5\u5177","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/ncat.md"}');export{t as data};

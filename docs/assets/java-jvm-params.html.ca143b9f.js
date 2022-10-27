@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-01e73a3a","path":"/jvm/java-jvm-params.html","title":"java\u5E94\u7528\u542F\u52A8\u53C2\u6570\u8BF4\u660E","lang":"zh-CN","frontmatter":{"title":"java\u5E94\u7528\u542F\u52A8\u53C2\u6570\u8BF4\u660E","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"jvm/java-jvm-params.md"}');export{a as data};

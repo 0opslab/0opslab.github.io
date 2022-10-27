@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b0e7af4e","path":"/linux/centos.html","title":"centos\u5E38\u7528\u7684\u811A\u672C\u96C6\u5408","lang":"zh-CN","frontmatter":{"title":"centos\u5E38\u7528\u7684\u811A\u672C\u96C6\u5408","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/centos.md"}');export{t as data};

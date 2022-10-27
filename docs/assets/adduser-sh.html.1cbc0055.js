@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b79b7042","path":"/sp-bash/adduser-sh.html","title":"linux\u7528\u811A\u672C\u6DFB\u52A0user","lang":"zh-CN","frontmatter":{"title":"linux\u7528\u811A\u672C\u6DFB\u52A0user","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/adduser-sh.md"}');export{e as data};

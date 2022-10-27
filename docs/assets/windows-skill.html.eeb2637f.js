@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-697fc1bc","path":"/doc/windows-skill.html","title":"windows\u4E0B\u90A3\u4E9B\u63D0\u9AD8\u6548\u7387\u7684\u6280\u5DE7","lang":"zh-CN","frontmatter":{"title":"windows\u4E0B\u90A3\u4E9B\u63D0\u9AD8\u6548\u7387\u7684\u6280\u5DE7","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"doc/windows-skill.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-8f28eb6c","path":"/cmds/asterisk.html","title":"asterisk\u670D\u52A1\u76F8\u5173\u7684\u90A3\u4E9B\u64CD\u4F5C","lang":"zh-CN","frontmatter":{"title":"asterisk\u670D\u52A1\u76F8\u5173\u7684\u90A3\u4E9B\u64CD\u4F5C","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/asterisk.md"}');export{t as data};

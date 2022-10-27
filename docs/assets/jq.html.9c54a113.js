@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-725df384","path":"/cmd/jq.html","title":"json\u8F7B\u91CF\u7EA7\u5904\u7406\u547D\u4EE4jq","lang":"zh-CN","frontmatter":{"title":"json\u8F7B\u91CF\u7EA7\u5904\u7406\u547D\u4EE4jq","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmd/jq.md"}');export{t as data};

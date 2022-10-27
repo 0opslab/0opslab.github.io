@@ -1,0 +1,38 @@
+import{_ as n,o as a,c as s,e}from"./app.a667bd71.js";const i={},l=e(`<h3 id="\u9009\u9879" tabindex="-1"><a class="header-anchor" href="#\u9009\u9879" aria-hidden="true">#</a> \u9009\u9879</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token parameter variable">-a</span> <span class="token function">file</span> \u4ECE\u6587\u4EF6\u4E2D\u8BFB\u5165\u4F5C\u4E3A stdin
+<span class="token parameter variable">-e</span> flag \uFF0C\u6CE8\u610F\u6709\u7684\u65F6\u5019\u53EF\u80FD\u4F1A\u662F-E\uFF0Cflag\u5FC5\u987B\u662F\u4E00\u4E2A\u4EE5\u7A7A\u683C\u5206\u9694\u7684\u6807\u5FD7\uFF0C\u5F53xargs\u5206\u6790\u5230\u542B\u6709flag\u8FD9\u4E2A\u6807\u5FD7\u7684\u65F6\u5019\u5C31\u505C\u6B62\u3002
+<span class="token parameter variable">-p</span> \u5F53\u6BCF\u6B21\u6267\u884C\u4E00\u4E2Aargument\u7684\u65F6\u5019\u8BE2\u95EE\u4E00\u6B21\u7528\u6237\u3002
+<span class="token parameter variable">-n</span> num \u540E\u9762\u52A0\u6B21\u6570\uFF0C\u8868\u793A\u547D\u4EE4\u5728\u6267\u884C\u7684\u65F6\u5019\u4E00\u6B21\u7528\u7684argument\u7684\u4E2A\u6570\uFF0C\u9ED8\u8BA4\u662F\u7528\u6240\u6709\u7684\u3002
+<span class="token parameter variable">-t</span> \u8868\u793A\u5148\u6253\u5370\u547D\u4EE4\uFF0C\u7136\u540E\u518D\u6267\u884C\u3002
+<span class="token parameter variable">-i</span> \u6216\u8005\u662F-I\uFF0C\u8FD9\u5F97\u770Blinux\u652F\u6301\u4E86\uFF0C\u5C06xargs\u7684\u6BCF\u9879\u540D\u79F0\uFF0C\u4E00\u822C\u662F\u4E00\u884C\u4E00\u884C\u8D4B\u503C\u7ED9 <span class="token punctuation">{</span><span class="token punctuation">}</span>\uFF0C\u53EF\u4EE5\u7528 <span class="token punctuation">{</span><span class="token punctuation">}</span> \u4EE3\u66FF\u3002
+<span class="token parameter variable">-r</span> no-run-if-empty \u5F53xargs\u7684\u8F93\u5165\u4E3A\u7A7A\u7684\u65F6\u5019\u5219\u505C\u6B62xargs\uFF0C\u4E0D\u7528\u518D\u53BB\u6267\u884C\u4E86\u3002
+<span class="token parameter variable">-s</span> num \u547D\u4EE4\u884C\u7684\u6700\u5927\u5B57\u7B26\u6570\uFF0C\u6307\u7684\u662F <span class="token function">xargs</span> \u540E\u9762\u90A3\u4E2A\u547D\u4EE4\u7684\u6700\u5927\u547D\u4EE4\u884C\u5B57\u7B26\u6570\u3002
+<span class="token parameter variable">-L</span> num \u4ECE\u6807\u51C6\u8F93\u5165\u4E00\u6B21\u8BFB\u53D6 num \u884C\u9001\u7ED9 <span class="token builtin class-name">command</span> \u547D\u4EE4\u3002
+<span class="token parameter variable">-l</span> \u540C -L\u3002
+<span class="token parameter variable">-d</span> delim \u5206\u9694\u7B26\uFF0C\u9ED8\u8BA4\u7684xargs\u5206\u9694\u7B26\u662F\u56DE\u8F66\uFF0Cargument\u7684\u5206\u9694\u7B26\u662F\u7A7A\u683C\uFF0C\u8FD9\u91CC\u4FEE\u6539\u7684\u662Fxargs\u7684\u5206\u9694\u7B26\u3002
+<span class="token parameter variable">-x</span> exit\u7684\u610F\u601D\uFF0C\u4E3B\u8981\u662F\u914D\u5408-s\u4F7F\u7528\u3002\u3002
+<span class="token parameter variable">-P</span> \u4FEE\u6539\u6700\u5927\u7684\u8FDB\u7A0B\u6570\uFF0C\u9ED8\u8BA4\u662F1\uFF0C\u4E3A0\u65F6\u5019\u4E3Aas many as it can \uFF0C\u8FD9\u4E2A\u4F8B\u5B50\u6211\u6CA1\u6709\u60F3\u5230\uFF0C\u5E94\u8BE5\u5E73\u65F6\u90FD\u7528\u4E0D\u5230\u7684\u5427\u3002
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="\u5E38\u7528\u547D\u4EE4" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u547D\u4EE4" aria-hidden="true">#</a> \u5E38\u7528\u547D\u4EE4</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># find all file name ending with .pdf and remove them</span>
+<span class="token comment">#\u627E\u5230\u6240\u6709\u4EE5.pdf\u7ED3\u5C3E\u7684\u6587\u4EF6\u540D\u5E76\u5220\u9664\u5B83\u4EEC</span>
+<span class="token function">find</span> <span class="token parameter variable">-name</span> *.pdf <span class="token operator">|</span> <span class="token function">xargs</span> <span class="token function">rm</span> <span class="token parameter variable">-rf</span>
+
+<span class="token comment"># if file name contains spaces you should use this instead</span>
+<span class="token comment">#\u5982\u679C\u6587\u4EF6\u540D\u5305\u542B\u7A7A\u683C\uFF0C\u5219\u5E94\u4F7F\u7528\u6B64\u66FF\u4EE3</span>
+<span class="token function">find</span> <span class="token parameter variable">-name</span> *.pdf <span class="token operator">|</span> <span class="token function">xargs</span> -I<span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token function">rm</span> <span class="token parameter variable">-rf</span> <span class="token string">&#39;{}&#39;</span>
+
+<span class="token comment"># Will show every .pdf like:</span>
+<span class="token comment">#\u5C06\u663E\u793A\u6BCF\u4E2A.pdf\u50CF\uFF1A</span>
+<span class="token comment">#	&amp;toto.pdf=</span>
+<span class="token comment">#\u7528\uFF06\u548C\u3002 pdf =</span>
+<span class="token comment">#	&amp;titi.pdf=</span>
+<span class="token comment">#\uFF03\uFF06titi.pdf =</span>
+<span class="token comment"># -n1 =&gt; One file by one file. ( -n2 =&gt; 2 files by 2 files )</span>
+<span class="token comment">#-n1 =&gt;\u4E00\u4E2A\u6587\u4EF6\u4E00\u4E2A\u6587\u4EF6\u3002 \uFF08-n2 =&gt; 2\u4E2A\u6587\u4EF6\u76842\u4E2A\u6587\u4EF6\uFF09</span>
+
+<span class="token function">find</span> <span class="token parameter variable">-name</span> *.pdf <span class="token operator">|</span> <span class="token function">xargs</span> -I<span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token parameter variable">-n1</span> <span class="token builtin class-name">echo</span> <span class="token string">&#39;&amp;{}=&#39;</span>
+
+<span class="token comment"># If find returns no result, do not run rm</span>
+<span class="token comment">#\u5982\u679Cfind\u6CA1\u6709\u8FD4\u56DE\u7ED3\u679C\uFF0C\u8BF7\u4E0D\u8981\u8FD0\u884Crm</span>
+<span class="token comment"># This option is a GNU extension.</span>
+<span class="token comment">#\u6B64\u9009\u9879\u662FGNU\u6269\u5C55\u3002</span>
+<span class="token function">find</span> <span class="token parameter variable">-name</span> <span class="token string">&quot;*.pdf&quot;</span> <span class="token operator">|</span> <span class="token function">xargs</span> --no-run-if-empty <span class="token function">rm</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4),t=[l];function p(c,r){return a(),s("div",null,t)}const d=n(i,[["render",p],["__file","xargs.html.vue"]]);export{d as default};

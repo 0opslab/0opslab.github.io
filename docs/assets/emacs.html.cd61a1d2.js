@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5838de66","path":"/cmds/emacs.html","title":"\u4E0A\u53E4\u7F16\u8F91\u795E\u5668emacs","lang":"zh-CN","frontmatter":{"title":"\u4E0A\u53E4\u7F16\u8F91\u795E\u5668emacs","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/emacs.md"}');export{e as data};

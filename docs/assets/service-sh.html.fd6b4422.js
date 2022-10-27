@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ad43ecb0","path":"/sp-bash/service-sh.html","title":"install as service on systemctl","lang":"zh-CN","frontmatter":{"title":"install as service on systemctl","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/service-sh.md"}');export{e as data};

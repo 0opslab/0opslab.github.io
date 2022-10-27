@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-c1860dd8","path":"/sp-bash/secAutoClosePort-sh.html","title":"","lang":"zh-CN","frontmatter":{"title":null,"date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/secAutoClosePort-sh.md"}');export{t as data};

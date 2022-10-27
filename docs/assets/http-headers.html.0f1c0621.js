@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-45ea6870","path":"/doc/http-headers.html","title":"http\u4E2D\u5E38\u89C1\u7684header\u901F\u67E5\u8868","lang":"zh-CN","frontmatter":{"title":"http\u4E2D\u5E38\u89C1\u7684header\u901F\u67E5\u8868","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"doc/http-headers.md"}');export{t as data};

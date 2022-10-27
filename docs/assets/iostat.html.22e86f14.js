@@ -1,0 +1,92 @@
+import{_ as s,o as a,c as n,e}from"./app.a667bd71.js";const l={},p=e(`<p>\u88AB\u7528\u4E8E\u76D1\u89C6\u7CFB\u7EDF\u8F93\u5165\u8F93\u51FA\u8BBE\u5907\u548CCPU\u7684\u4F7F\u7528\u60C5\u51B5\u3002\u5B83\u7684\u7279\u70B9\u662F\u6C47\u62A5\u78C1\u76D8\u6D3B\u52A8\u7EDF\u8BA1\u60C5\u51B5\uFF0C\u540C\u65F6\u4E5F\u4F1A\u6C47\u62A5\u51FACPU\u4F7F\u7528\u60C5\u51B5\u3002 \u540Cvmstat\u4E00\u6837\uFF0Ciostat\u4E5F\u6709\u4E00\u4E2A\u5F31\u70B9\uFF0C\u5C31\u662F\u5B83\u4E0D\u80FD\u5BF9\u67D0\u4E2A\u8FDB\u7A0B\u8FDB\u884C\u6DF1\u5165\u5206\u6790\uFF0C\u4EC5\u5BF9\u7CFB\u7EDF\u7684\u6574\u4F53\u60C5\u51B5\u8FDB\u884C\u5206\u6790</p><h3 id="\u5E38\u7528\u9009\u9879" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u9009\u9879" aria-hidden="true">#</a> \u5E38\u7528\u9009\u9879</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>-c\uFF1A\u4EC5\u663E\u793ACPU\u4F7F\u7528\u60C5\u51B5\uFF1B
+-d\uFF1A\u4EC5\u663E\u793A\u8BBE\u5907\u5229\u7528\u7387\uFF1B
+-k\uFF1A\u663E\u793A\u72B6\u6001\u4EE5\u5343\u5B57\u8282\u6BCF\u79D2\u4E3A\u5355\u4F4D\uFF0C\u800C\u4E0D\u4F7F\u7528\u5757\u6BCF\u79D2\uFF1B
+-m\uFF1A\u663E\u793A\u72B6\u6001\u4EE5\u5146\u5B57\u8282\u6BCF\u79D2\u4E3A\u5355\u4F4D\uFF1B
+-p\uFF1A\u4EC5\u663E\u793A\u5757\u8BBE\u5907\u548C\u6240\u6709\u88AB\u4F7F\u7528\u7684\u5176\u4ED6\u5206\u533A\u7684\u72B6\u6001\uFF1B
+-t\uFF1A\u663E\u793A\u6BCF\u4E2A\u62A5\u544A\u4EA7\u751F\u65F6\u7684\u65F6\u95F4\uFF1B
+-V\uFF1A\u663E\u793A\u7248\u53F7\u5E76\u9000\u51FA\uFF1B
+-x\uFF1A\u663E\u793A\u6269\u5C55\u72B6\u6001\u3002
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="\u8F93\u51FA\u9009\u9879\u8BF4\u660E" tabindex="-1"><a class="header-anchor" href="#\u8F93\u51FA\u9009\u9879\u8BF4\u660E" aria-hidden="true">#</a> \u8F93\u51FA\u9009\u9879\u8BF4\u660E</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Device	\u76D1\u6D4B\u8BBE\u5907\u540D\u79F0
+rrqm/s	\u6BCF\u79D2\u9700\u8981\u8BFB\u53D6\u9700\u6C42\u7684\u6570\u91CF
+wrqm/s	\u6BCF\u79D2\u9700\u8981\u5199\u5165\u9700\u6C42\u7684\u6570\u91CF
+r/s	\u6BCF\u79D2\u5B9E\u9645\u8BFB\u53D6\u9700\u6C42\u7684\u6570\u91CF
+w/s	\u6BCF\u79D2\u5B9E\u9645\u5199\u5165\u9700\u6C42\u7684\u6570\u91CF
+rsec/s	\u6BCF\u79D2\u8BFB\u53D6\u533A\u6BB5\u7684\u6570\u91CF
+wsec/s	\u6BCF\u79D2\u5199\u5165\u533A\u6BB5\u7684\u6570\u91CF
+rkB/s	\u6BCF\u79D2\u5B9E\u9645\u8BFB\u53D6\u7684\u5927\u5C0F\uFF0C\u5355\u4F4D\u4E3AKB
+wkB/s	\u6BCF\u79D2\u5B9E\u9645\u5199\u5165\u7684\u5927\u5C0F\uFF0C\u5355\u4F4D\u4E3AKB
+avgrq-sz	\u9700\u6C42\u7684\u5E73\u5747\u5927\u5C0F\u533A\u6BB5
+avgqu-sz	\u9700\u6C42\u7684\u5E73\u5747\u961F\u5217\u957F\u5EA6
+await	\u7B49\u5F85I/O\u5E73\u5747\u7684\u65F6\u95F4\uFF08milliseconds\uFF09
+svctm	I/O\u9700\u6C42\u5B8C\u6210\u7684\u5E73\u5747\u65F6\u95F4
+%util	\u88ABI/O\u9700\u6C42\u6D88\u8017\u7684CPU\u767E\u5206\u6BD4
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="\u5E38\u7528\u547D\u4EE4" tabindex="-1"><a class="header-anchor" href="#\u5E38\u7528\u547D\u4EE4" aria-hidden="true">#</a> \u5E38\u7528\u547D\u4EE4</h3><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u6765\u89C2\u770B\u78C1\u76D8I/O\u7684\u8BE6\u7EC6\u60C5\u51B5</span>
+iostat <span class="token parameter variable">-x</span> /dev/sda1
+
+<span class="token comment"># \u83B7\u53D6cpu\u90E8\u5206\u72B6\u6001\u503C</span>
+iostat <span class="token parameter variable">-c</span> <span class="token number">1</span> <span class="token number">10</span>
+
+<span class="token comment">#\u67E5\u770BTPS\u548C\u541E\u5410\u91CF\u4FE1\u606F</span>
+iostat <span class="token parameter variable">-d</span> <span class="token parameter variable">-k</span> <span class="token number">1</span> <span class="token number">10</span> 
+
+<span class="token comment">#\u67E5\u770B\u8BBE\u5907\u4F7F\u7528\u7387\uFF08%util\uFF09\u3001\u54CD\u5E94\u65F6\u95F4\uFF08await\uFF09</span>
+iostat <span class="token parameter variable">-d</span> <span class="token parameter variable">-x</span> <span class="token parameter variable">-k</span> <span class="token number">1</span> <span class="token number">10</span> 
+
+<span class="token comment"># \u663E\u793A\u8BBE\u5907\u7684\u6301\u4E45\u5316\u540D\u79F0</span>
+iostat <span class="token parameter variable">-d</span> <span class="token parameter variable">-j</span> ID
+
+<span class="token comment"># \u663E\u793A LVM2 \u8BBE\u5907\u7684\u6620\u5C04\u540D\u79F0</span>
+iostat <span class="token parameter variable">-d</span> <span class="token parameter variable">-N</span>
+
+<span class="token comment"># \u4EE5 M \u4E3A\u5355\u4F4D\u663E\u793A\u6570\u5B57</span>
+iostat <span class="token parameter variable">-m</span> <span class="token parameter variable">-d</span> sdb
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token shebang important">#!/bin/sh</span>
+<span class="token function">which</span> iostat <span class="token operator">&gt;</span> /dev/null <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$?</span> <span class="token parameter variable">-ne</span> <span class="token number">0</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;error_text=iostat command not found!&quot;</span>
+  <span class="token builtin class-name">exit</span> <span class="token number">0</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$#</span> <span class="token parameter variable">-lt</span> <span class="token number">1</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;error_text=diskname argument not specified!&quot;</span>
+  <span class="token builtin class-name">exit</span>
+<span class="token keyword">fi</span>
+
+<span class="token assign-left variable">os</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token function">uname</span><span class="token variable">\`</span></span>
+<span class="token assign-left variable">diskname</span><span class="token operator">=</span><span class="token variable">$1</span>
+<span class="token assign-left variable">rb</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token assign-left variable">wb</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token assign-left variable">trans</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token assign-left variable">wt</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token assign-left variable">bt</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$os</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;linux&quot;</span> <span class="token punctuation">]</span> <span class="token operator">||</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$os</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;Linux&quot;</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+  <span class="token assign-left variable">output</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span>iostat <span class="token number">1</span> <span class="token number">3</span> <span class="token operator">|</span><span class="token function">grep</span> $diskname<span class="token operator">|</span><span class="token function">tail</span> <span class="token parameter variable">-1</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">rb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $3}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">wb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $4}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">wt</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $9}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">bt</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $10}&#39;</span><span class="token variable">\`</span></span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$os</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;SunOS&quot;</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+  <span class="token assign-left variable">output</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span>iostat <span class="token parameter variable">-xnp</span> <span class="token number">2</span> <span class="token number">2</span> <span class="token operator">|</span><span class="token function">grep</span> $diskname<span class="token operator">|</span><span class="token function">tail</span> <span class="token parameter variable">-1</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">rb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $3}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">wb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $4}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">wt</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $9}&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">bt</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">&#39;{printf $10}&#39;</span><span class="token variable">\`</span></span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">&quot;<span class="token variable">$os</span>&quot;</span> <span class="token operator">=</span> <span class="token string">&quot;AIX&quot;</span> <span class="token punctuation">]</span> 
+<span class="token keyword">then</span>
+  <span class="token assign-left variable">output</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span>iostat <span class="token parameter variable">-d</span> <span class="token number">1</span> <span class="token number">3</span> <span class="token operator">|</span> <span class="token function">grep</span> $diskname <span class="token operator">|</span> <span class="token function">tail</span> <span class="token parameter variable">-1</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">rb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">&#39;{ print $5 }&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">wb</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">&#39;{ print $6 }&#39;</span><span class="token variable">\`</span></span>
+  <span class="token assign-left variable">trans</span><span class="token operator">=</span><span class="token variable"><span class="token variable">\`</span><span class="token builtin class-name">echo</span> $output <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">&#39;{ print $4 }&#39;</span><span class="token variable">\`</span></span>
+<span class="token keyword">fi</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Read bytes=<span class="token variable">$rb</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Write bytes=<span class="token variable">$wb</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Number of transactions being serviced=<span class="token variable">$trans</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Wait time=<span class="token variable">$wt</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;Busy time=<span class="token variable">$bt</span>&quot;</span>
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,8),t=[p];function i(o,c){return a(),n("div",null,t)}const v=s(l,[["render",i],["__file","iostat.html.vue"]]);export{v as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-67a41b2a","path":"/tools/curl-ftp.html","title":"curl\u73A9\u8F6Cftp\u7684\u5E38\u7528\u64CD\u4F5C","lang":"zh-CN","frontmatter":{"title":"curl\u73A9\u8F6Cftp\u7684\u5E38\u7528\u64CD\u4F5C","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"tools/curl-ftp.md"}');export{t as data};

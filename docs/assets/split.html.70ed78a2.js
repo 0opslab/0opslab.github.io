@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-bb079188","path":"/cmds/split.html","title":"linux\u5E38\u7528\u7684\u6587\u4EF6\u5206\u5272\u547D\u4EE4split","lang":"zh-CN","frontmatter":{"title":"linux\u5E38\u7528\u7684\u6587\u4EF6\u5206\u5272\u547D\u4EE4split","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/split.md"}');export{t as data};

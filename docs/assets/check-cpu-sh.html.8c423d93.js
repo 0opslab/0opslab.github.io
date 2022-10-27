@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ed5e1554","path":"/sp-bash/check-cpu-sh.html","title":"Check CPU Usage via /proc/stats","lang":"zh-CN","frontmatter":{"title":"Check CPU Usage via /proc/stats","date":null,"author":null,"summary":null,"categories":null,"tags":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"sp-bash/check-cpu-sh.md"}');export{e as data};

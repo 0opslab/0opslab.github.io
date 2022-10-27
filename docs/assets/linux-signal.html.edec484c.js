@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1d741464","path":"/linux/linux-signal.html","title":"Linux\u4E2D\u7684\u4FE1\u53F7","lang":"zh-CN","frontmatter":{"title":"Linux\u4E2D\u7684\u4FE1\u53F7","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/linux-signal.md"}');export{t as data};

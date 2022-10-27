@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-ce7bc1b2","path":"/cmds/cups.html","title":"\u901A\u8FC7cups\u6765\u63A7\u5236\u6253\u5370","lang":"zh-CN","frontmatter":{"title":"\u901A\u8FC7cups\u6765\u63A7\u5236\u6253\u5370","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"cmds/cups.md"}');export{t as data};

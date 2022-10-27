@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7cae11c1","path":"/linux/systemctl.html","title":"systemctl\u7CFB\u7EDF\u670D\u52A1\u7BA1\u7406\u5668\u6307\u4EE4","lang":"zh-CN","frontmatter":{"title":"systemctl\u7CFB\u7EDF\u670D\u52A1\u7BA1\u7406\u5668\u6307\u4EE4","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/systemctl.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a613e596","path":"/doc/windows-excel-funs.html","title":"Excel \u51FD\u6570","lang":"zh-CN","frontmatter":{"title":"Excel \u51FD\u6570","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"doc/windows-excel-funs.md"}');export{e as data};

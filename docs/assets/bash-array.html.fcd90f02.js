@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-abe92376","path":"/linux/bash-array.html","title":"bash\u4E2D\u5404\u79CD\u6570\u7EC4\u7684\u7528\u6CD5","lang":"zh-CN","frontmatter":{"title":"bash\u4E2D\u5404\u79CD\u6570\u7EC4\u7684\u7528\u6CD5","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"linux/bash-array.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-530c113b","path":"/spring/spring-flow-action.html","title":"SpringMVC\u7684\u5B9E\u73B0\u539F\u7406\u53CA\u6D41\u7A0B","lang":"zh-CN","frontmatter":{"title":"SpringMVC\u7684\u5B9E\u73B0\u539F\u7406\u53CA\u6D41\u7A0B","description":null},"excerpt":"","headers":[],"git":{},"filePathRelative":"spring/spring-flow-action.md"}');export{t as data};
